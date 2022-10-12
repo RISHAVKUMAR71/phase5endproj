@@ -30,13 +30,13 @@ public class application {
 	@BeforeClass
 	public void startBrowser() throws InterruptedException{
 
-		System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\hp\\\\Downloads\\\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\hp\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		wd = new ChromeDriver();
 
-//		System.setProperty("webdriver.gecko.driver", "C:\\tools\\webdriver\\geckodriver.exe");
+//		System.setProperty("webdriver.gecko.driver", "C:\Users\hp\Downloads\geckodriver-v0.31.0-win64\\geckodriver.exe");
 //		wd = new FirefoxDriver();
 
-//		System.setProperty("webdriver.edge.driver", "C:\\tools\\webdriver\\msedgedriver.exe");
+//		System.setProperty("webdriver.edge.driver", "C:\Users\hp\Downloads\edgedriver_win64\\msedgedriver.exe");
 //		wd = new EdgeDriver();
 
 		wd.get("https://www.flipkart.com/");
